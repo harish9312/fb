@@ -1,0 +1,33 @@
+.css3-shadow,
+.css3-gradient1,
+.css3-gradient2
+{
+  	position:relative;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+body {
+	background: url(noise.png)  repeat top left;
+	font-family:"Droid Serif", Verdana, Geneva, sans-serif;
+	font-size:.86em;
+	color:#666;
+	text-align:center;
+}
+.wrap1,
+.wrap2{
+	padding:10px;
+	background:url(22.jpg) center top;
+	position:relative;
+	z-index:-10;
+}
+.wrap1{
+	background:#098fb6;
+}
+.custombox {
+	width:70%;
+	padding:20px;
+	paddign-right:90px;
+	background:#fff;
+	margin:20px auto 60px;
+	border-radius:20px;
+}

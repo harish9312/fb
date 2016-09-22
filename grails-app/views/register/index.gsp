@@ -21,7 +21,6 @@ width:300px;
 </head>
 <br>
 <body>
-<h1>${msg}</h1>
 <br>
 <div class="container">
 <g:form action="addUser">

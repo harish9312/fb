@@ -33,7 +33,8 @@ class RegisterController {
         }
     //save the feedback to the database and redirect to the feedback list
     def saveFeedback()
-    {
+    {   
+        println(params)
         def saveFB = new Feedback(params)
         if(saveFB.save())
         {
